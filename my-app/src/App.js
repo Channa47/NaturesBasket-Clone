@@ -7,13 +7,14 @@ import Navbar2 from './Components/navbar2';
 import Home from "./pages/Home"
 import Footer from './Components/Footer';
 import Footer2 from './Components/Footer2';
+import AllTRoutes from './Allroutes';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Navbar2 />
-      <Home />
+      <AllTRoutes />
       <Footer />
       
     </div>

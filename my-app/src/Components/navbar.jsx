@@ -1,28 +1,15 @@
 import { border } from "@chakra-ui/react";
 import React from "react";
-// import { NavLink } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 
-// 1. map all the links instead of separate Link components;
-// 2. try NavLinks and add style it;
-
-// const links = [
-//   { path: "/", title: "Home" },
-//   { path: "/about", title: "About" },
-//   { path: "/contact", title: "Contact" },
-//   { path: "/users", title: "users" }
-// ];
+let HandleClick = ()=>{
+   let navigate = useNavigate();
+   navigate("/")
+}
 
 function Navbar() {
-  // const defaultStyle = {
-  //   textDecoration: "none",
-  //   color: "black",
-  // };
-
-  // const activeStyle = {
-  //   textDecoration: "none",
-  //   color: "red",
-  // };
+ 
 
   return (
     <div
@@ -41,7 +28,7 @@ function Navbar() {
         boxShadow: "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset"
       }}
     >  
-      <img src="https://www.naturesbasket.co.in/Images/logosnew.png?v=2" />
+      <img onClick={HandleClick} src="https://www.naturesbasket.co.in/Images/logosnew.png?v=2" />
       <div style={{width:"100%"}}>
       <div style={{
         display:"flex", justifyContent:"space-around", gap:"10px",
