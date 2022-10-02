@@ -16,7 +16,6 @@ function App() {
       <Navbar2 />
       <AllTRoutes />
       <Footer />
-      
     </div>
   );
 }

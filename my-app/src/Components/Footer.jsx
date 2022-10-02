@@ -1,7 +1,7 @@
 import React  from "react";
 
 function Footer(){
-    return <div style={{ textAlign:"center",justifyContent:"center",border:"2px solid red",marginTop:"30px"}}>
+    return <div style={{ textAlign:"center",justifyContent:"center",marginTop:"30px"}}>
            <h1 style={{color:"black",textDecoration:"underline"}}>Online Grocery Store India </h1>
            <p style={{width:"90%",padding:"auto",textAlign:"justify",textAlignLast:"left",marginLeft:"30px"}}>
            Nature’s Basket is a grocery store operating in Mumbai, Bangalore and Pune with deliveries to all cities across India including Hyderabad, Delhi, Kolkata, Chennai, Surat and more. We offer a wide range of food products for all your everyday needs and even offer grocery home delivery as well as a grocery shop online for you to purchase from. Our online grocery store has fresh fruits and vegetables, fresh and frozen meats and seafood, a wide range of breads and other packaged bakery products as well as a range of fresh cheeses from around the world. We even have a range of every staple and international cuisine product to meet your needs along with organic products for fresh and packaged food items. With our offerings, we have the best online food shop & online grocery shopping platform available for all your grocery products as well as physical grocery stores in select cities.
