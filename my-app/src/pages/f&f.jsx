@@ -7,7 +7,7 @@ import { useContext } from "react";
 
 
 let getdata = ()=>{
-    return axios.get(`http://localhost:3000/fruites_and_veg`)
+    return axios.get(`https://rct1-database-app.onrender.com/fruites_and_veg`)
 }
 
 let FandF = ()=>{

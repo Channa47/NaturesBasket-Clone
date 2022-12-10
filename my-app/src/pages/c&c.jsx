@@ -6,7 +6,7 @@ import { useContext } from "react";
 import {addToCart} from "../Components/action"
 
 let getdata = ()=>{
-    return axios.get(`http://localhost:3000/CMF`)
+    return axios.get(`https://rct1-database-app.onrender.com/CMF`)
 }
 
 
